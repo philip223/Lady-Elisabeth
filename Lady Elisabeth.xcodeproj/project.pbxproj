@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D477F7251CFF265300CB0DFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D477F7241CFF265300CB0DFB /* AppDelegate.swift */; };
+		D477F72A1CFF265300CB0DFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D477F7281CFF265300CB0DFB /* Main.storyboard */; };
+		D477F72C1CFF265300CB0DFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D477F72B1CFF265300CB0DFB /* Assets.xcassets */; };
+		D477F72F1CFF265300CB0DFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D477F72D1CFF265300CB0DFB /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D477F7211CFF265200CB0DFB /* Lady Elisabeth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lady Elisabeth.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D477F7241CFF265300CB0DFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D477F7291CFF265300CB0DFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D477F72B1CFF265300CB0DFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D477F72E1CFF265300CB0DFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D477F7301CFF265300CB0DFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D477F71E1CFF265200CB0DFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D477F7181CFF265200CB0DFB = {
+			isa = PBXGroup;
+			children = (
+				D477F7231CFF265200CB0DFB /* Lady Elisabeth */,
+				D477F7221CFF265200CB0DFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D477F7221CFF265200CB0DFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D477F7211CFF265200CB0DFB /* Lady Elisabeth.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D477F7231CFF265200CB0DFB /* Lady Elisabeth */ = {
+			isa = PBXGroup;
+			children = (
+				D477F7241CFF265300CB0DFB /* AppDelegate.swift */,
+				D477F72D1CFF265300CB0DFB /* LaunchScreen.storyboard */,
+				D477F7281CFF265300CB0DFB /* Main.storyboard */,
+				D4CD88841CFF295900ECD0AB /* Controllers */,
+				D4CD88851CFF295900ECD0AB /* Extentions */,
+				D4CD88861CFF295900ECD0AB /* Model */,
+				D4CD88871CFF295900ECD0AB /* Protocols */,
+				D4CD88881CFF295900ECD0AB /* Views */,
+				D477F72B1CFF265300CB0DFB /* Assets.xcassets */,
+				D477F7301CFF265300CB0DFB /* Info.plist */,
+			);
+			path = "Lady Elisabeth";
+			sourceTree = "<group>";
+		};
+		D4CD88841CFF295900ECD0AB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D4CD88851CFF295900ECD0AB /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		D4CD88861CFF295900ECD0AB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D4CD88871CFF295900ECD0AB /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		D4CD88881CFF295900ECD0AB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D477F7201CFF265200CB0DFB /* Lady Elisabeth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D477F7331CFF265300CB0DFB /* Build configuration list for PBXNativeTarget "Lady Elisabeth" */;
+			buildPhases = (
+				D477F71D1CFF265200CB0DFB /* Sources */,
+				D477F71E1CFF265200CB0DFB /* Frameworks */,
+				D477F71F1CFF265200CB0DFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lady Elisabeth";
+			productName = "Lady Elisabeth";
+			productReference = D477F7211CFF265200CB0DFB /* Lady Elisabeth.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D477F7191CFF265200CB0DFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "vilet studios";
+				TargetAttributes = {
+					D477F7201CFF265200CB0DFB = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = D477F71C1CFF265200CB0DFB /* Build configuration list for PBXProject "Lady Elisabeth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D477F7181CFF265200CB0DFB;
+			productRefGroup = D477F7221CFF265200CB0DFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D477F7201CFF265200CB0DFB /* Lady Elisabeth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D477F71F1CFF265200CB0DFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D477F72F1CFF265300CB0DFB /* LaunchScreen.storyboard in Resources */,
+				D477F72C1CFF265300CB0DFB /* Assets.xcassets in Resources */,
+				D477F72A1CFF265300CB0DFB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D477F71D1CFF265200CB0DFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D477F7251CFF265300CB0DFB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D477F7281CFF265300CB0DFB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D477F7291CFF265300CB0DFB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D477F72D1CFF265300CB0DFB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D477F72E1CFF265300CB0DFB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D477F7311CFF265300CB0DFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D477F7321CFF265300CB0DFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D477F7341CFF265300CB0DFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Lady Elisabeth/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vilet-studios.Lady-Elisabeth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D477F7351CFF265300CB0DFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Lady Elisabeth/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vilet-studios.Lady-Elisabeth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D477F71C1CFF265200CB0DFB /* Build configuration list for PBXProject "Lady Elisabeth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D477F7311CFF265300CB0DFB /* Debug */,
+				D477F7321CFF265300CB0DFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D477F7331CFF265300CB0DFB /* Build configuration list for PBXNativeTarget "Lady Elisabeth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D477F7341CFF265300CB0DFB /* Debug */,
+				D477F7351CFF265300CB0DFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D477F7191CFF265200CB0DFB /* Project object */;
+}
