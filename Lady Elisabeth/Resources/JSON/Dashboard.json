@@ -1,0 +1,24 @@
+{
+    "sections": [
+                 {
+                 "items": [
+                           {
+                           "title": "News",
+                           "imageName": "school"
+                           },
+                           {
+                           "title": "Gallary",
+                           "imageName": "school"
+                           },
+                           {
+                           "title": "Date & Terms",
+                           "imageName": "school"
+                           },
+                           {
+                           "title": "Login",
+                           "imageName": "school"
+                           }
+                           ]
+                 }
+                 ]
+}

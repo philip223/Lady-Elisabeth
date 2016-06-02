@@ -8,6 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		D421232F1CFF33FB00EB15A5 /* SlideMenuControllerSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D421232E1CFF33FB00EB15A5 /* SlideMenuControllerSwift.framework */; };
+		D42123331CFF372C00EB15A5 /* Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D42123321CFF372C00EB15A5 /* Dashboard.storyboard */; };
+		D42123351CFF389800EB15A5 /* Menu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D42123341CFF389800EB15A5 /* Menu.storyboard */; };
+		D42123371CFF392100EB15A5 /* Notifications.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D42123361CFF392100EB15A5 /* Notifications.storyboard */; };
+		D421233A1CFF3E0200EB15A5 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42123391CFF3E0200EB15A5 /* GradientView.swift */; };
+		D421233D1CFF3F5200EB15A5 /* DashboardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D421233C1CFF3F5200EB15A5 /* DashboardCollectionViewCell.swift */; };
+		D42123441D0040B700EB15A5 /* DashboardCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42123431D0040B700EB15A5 /* DashboardCollectionViewController.swift */; };
+		D42123461D0040CE00EB15A5 /* DashboardFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42123451D0040CE00EB15A5 /* DashboardFlowLayout.swift */; };
+		D421234A1D004D8C00EB15A5 /* Dashboard.json in Resources */ = {isa = PBXBuildFile; fileRef = D42123491D004D8C00EB15A5 /* Dashboard.json */; };
+		D421234C1D00504600EB15A5 /* NSJSONSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = D421234B1D00504600EB15A5 /* NSJSONSerialization.swift */; };
+		D421234E1D0083C300EB15A5 /* News.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D421234D1D0083C300EB15A5 /* News.storyboard */; };
 		D477F7251CFF265300CB0DFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D477F7241CFF265300CB0DFB /* AppDelegate.swift */; };
 		D477F72A1CFF265300CB0DFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D477F7281CFF265300CB0DFB /* Main.storyboard */; };
 		D477F72C1CFF265300CB0DFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D477F72B1CFF265300CB0DFB /* Assets.xcassets */; };
@@ -16,6 +26,16 @@
 
 /* Begin PBXFileReference section */
 		D421232E1CFF33FB00EB15A5 /* SlideMenuControllerSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SlideMenuControllerSwift.framework; path = Carthage/Build/iOS/SlideMenuControllerSwift.framework; sourceTree = "<group>"; };
+		D42123321CFF372C00EB15A5 /* Dashboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Dashboard.storyboard; sourceTree = "<group>"; };
+		D42123341CFF389800EB15A5 /* Menu.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Menu.storyboard; sourceTree = "<group>"; };
+		D42123361CFF392100EB15A5 /* Notifications.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Notifications.storyboard; sourceTree = "<group>"; };
+		D42123391CFF3E0200EB15A5 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		D421233C1CFF3F5200EB15A5 /* DashboardCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardCollectionViewCell.swift; sourceTree = "<group>"; };
+		D42123431D0040B700EB15A5 /* DashboardCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardCollectionViewController.swift; sourceTree = "<group>"; };
+		D42123451D0040CE00EB15A5 /* DashboardFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardFlowLayout.swift; sourceTree = "<group>"; };
+		D42123491D004D8C00EB15A5 /* Dashboard.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Dashboard.json; sourceTree = "<group>"; };
+		D421234B1D00504600EB15A5 /* NSJSONSerialization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSJSONSerialization.swift; sourceTree = "<group>"; };
+		D421234D1D0083C300EB15A5 /* News.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = News.storyboard; sourceTree = "<group>"; };
 		D477F7211CFF265200CB0DFB /* Lady Elisabeth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lady Elisabeth.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D477F7241CFF265300CB0DFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D477F7291CFF265300CB0DFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -44,6 +64,50 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D42123311CFF36B400EB15A5 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				D42123321CFF372C00EB15A5 /* Dashboard.storyboard */,
+				D42123341CFF389800EB15A5 /* Menu.storyboard */,
+				D42123361CFF392100EB15A5 /* Notifications.storyboard */,
+				D421234D1D0083C300EB15A5 /* News.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		D421233B1CFF3F3900EB15A5 /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				D421233C1CFF3F5200EB15A5 /* DashboardCollectionViewCell.swift */,
+			);
+			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		D42123421D0040B700EB15A5 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				D42123431D0040B700EB15A5 /* DashboardCollectionViewController.swift */,
+				D42123451D0040CE00EB15A5 /* DashboardFlowLayout.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		D42123471D004D7900EB15A5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D42123481D004D7900EB15A5 /* JSON */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D42123481D004D7900EB15A5 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				D42123491D004D8C00EB15A5 /* Dashboard.json */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
 		D477F7181CFF265200CB0DFB = {
 			isa = PBXGroup;
 			children = (
@@ -67,11 +131,13 @@
 				D477F7241CFF265300CB0DFB /* AppDelegate.swift */,
 				D477F72D1CFF265300CB0DFB /* LaunchScreen.storyboard */,
 				D477F7281CFF265300CB0DFB /* Main.storyboard */,
+				D42123311CFF36B400EB15A5 /* Storyboards */,
 				D4CD88841CFF295900ECD0AB /* Controllers */,
 				D4CD88851CFF295900ECD0AB /* Extentions */,
 				D4CD88861CFF295900ECD0AB /* Model */,
 				D4CD88871CFF295900ECD0AB /* Protocols */,
 				D4CD88881CFF295900ECD0AB /* Views */,
+				D42123471D004D7900EB15A5 /* Resources */,
 				D477F72B1CFF265300CB0DFB /* Assets.xcassets */,
 				D477F7301CFF265300CB0DFB /* Info.plist */,
 			);
@@ -81,6 +147,7 @@
 		D4CD88841CFF295900ECD0AB /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				D42123421D0040B700EB15A5 /* Dashboard */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -88,6 +155,7 @@
 		D4CD88851CFF295900ECD0AB /* Extentions */ = {
 			isa = PBXGroup;
 			children = (
+				D421234B1D00504600EB15A5 /* NSJSONSerialization.swift */,
 			);
 			path = Extentions;
 			sourceTree = "<group>";
@@ -109,6 +177,8 @@
 		D4CD88881CFF295900ECD0AB /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				D42123391CFF3E0200EB15A5 /* GradientView.swift */,
+				D421233B1CFF3F3900EB15A5 /* CollectionViewCells */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -123,6 +193,7 @@
 				D477F71D1CFF265200CB0DFB /* Sources */,
 				D477F71E1CFF265200CB0DFB /* Frameworks */,
 				D477F71F1CFF265200CB0DFB /* Resources */,
+				D42123381CFF3AA100EB15A5 /* Carthage copy frameworks */,
 			);
 			buildRules = (
 			);
@@ -171,19 +242,47 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D42123351CFF389800EB15A5 /* Menu.storyboard in Resources */,
 				D477F72F1CFF265300CB0DFB /* LaunchScreen.storyboard in Resources */,
 				D477F72C1CFF265300CB0DFB /* Assets.xcassets in Resources */,
+				D421234E1D0083C300EB15A5 /* News.storyboard in Resources */,
+				D42123371CFF392100EB15A5 /* Notifications.storyboard in Resources */,
+				D421234A1D004D8C00EB15A5 /* Dashboard.json in Resources */,
 				D477F72A1CFF265300CB0DFB /* Main.storyboard in Resources */,
+				D42123331CFF372C00EB15A5 /* Dashboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D42123381CFF3AA100EB15A5 /* Carthage copy frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/SlideMenuControllerSwift.framework",
+			);
+			name = "Carthage copy frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D477F71D1CFF265200CB0DFB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D42123441D0040B700EB15A5 /* DashboardCollectionViewController.swift in Sources */,
+				D421233A1CFF3E0200EB15A5 /* GradientView.swift in Sources */,
+				D421234C1D00504600EB15A5 /* NSJSONSerialization.swift in Sources */,
+				D421233D1CFF3F5200EB15A5 /* DashboardCollectionViewCell.swift in Sources */,
+				D42123461D0040CE00EB15A5 /* DashboardFlowLayout.swift in Sources */,
 				D477F7251CFF265300CB0DFB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
