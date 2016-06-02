@@ -13,6 +13,9 @@ class DashboardCollectionViewController: UICollectionViewController, UICollectio
     
     enum DashboardSegue: String {
         case News
+        case Gallery
+        case DateAndTerms
+        case Login
     }
     
     typealias Dictionary = [String : AnyObject]
@@ -23,6 +26,9 @@ class DashboardCollectionViewController: UICollectionViewController, UICollectio
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        title = "Dashboard"
+        
         collectionView?.collectionViewLayout = layout
         collectionView?.backgroundColor = UIColor.whiteColor()
         
@@ -63,7 +69,8 @@ class DashboardCollectionViewController: UICollectionViewController, UICollectio
         let item = items[indexPath.row]
         
         let title = item["title"] as! String!
-        guard let segue = DashboardSegue(rawValue: title.capitalizedString)
+        let enumTitle = title.capitalizedString.stringByReplacingOccurrencesOfString(" ", withString: "")
+        guard let segue = DashboardSegue(rawValue: enumTitle)
             else { return }
         
         preformSegue(segue)
