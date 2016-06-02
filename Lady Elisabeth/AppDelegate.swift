@@ -16,11 +16,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         
-        let dashboard = UIStoryboard(name: "Dashboard", bundle: nil).instantiateInitialViewController()!
+        let dashboard = UIStoryboard(name: "Dashboard", bundle: nil).instantiateInitialViewController()
         let menu = UIStoryboard(name: "Menu", bundle: nil).instantiateInitialViewController()!
         let notifications = UIStoryboard(name: "Notifications", bundle: nil).instantiateInitialViewController()!
         
-        let slideMenuController = SlideMenuController(mainViewController:dashboard, leftMenuViewController: menu, rightMenuViewController: notifications)
+        let slideMenuController = SlideMenuController(mainViewController:dashboard!, leftMenuViewController: menu, rightMenuViewController: notifications)
         
         self.window?.rootViewController = slideMenuController
         self.window?.makeKeyAndVisible()
