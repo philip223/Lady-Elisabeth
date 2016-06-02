@@ -21,11 +21,11 @@ class DashboardFlowLayout: UICollectionViewFlowLayout {
     }
     
     func commonInit() {
-        minimumLineSpacing = 4.0
+        minimumLineSpacing = 1.0
     }
     
     func collectionView(collectionView: UICollectionView, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize {
-        return CGSize(width: collectionView.bounds.width, height: 120.0)
+        return CGSize(width: collectionView.bounds.width, height: 150.0)
     }
     
 }

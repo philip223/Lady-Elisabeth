@@ -29,7 +29,7 @@ public class DashboardCollectionViewCell: UICollectionViewCell {
     public override var selected: Bool {
         didSet {
             if selected {
-                gradientView.colors = [UIColor.redColor(), UIColor.clearColor()]
+                gradientView.colors = [UIColor.clearColor(), UIColor.greenColor()]
             } else {
                 gradientView.colors = [UIColor.blueColor(), UIColor.clearColor()]
             }
