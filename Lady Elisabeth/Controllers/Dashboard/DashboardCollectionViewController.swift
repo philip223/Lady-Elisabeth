@@ -11,6 +11,10 @@ import UIKit
 
 class DashboardCollectionViewController: UICollectionViewController, UICollectionViewDelegateFlowLayout {
     
+    enum DashboardSegue: String {
+        case News
+    }
+    
     typealias Dictionary = [String : AnyObject]
     
     let layout = DashboardFlowLayout()
@@ -20,7 +24,7 @@ class DashboardCollectionViewController: UICollectionViewController, UICollectio
     override func viewDidLoad() {
         super.viewDidLoad()
         collectionView?.collectionViewLayout = layout
-        collectionView?.backgroundView = GradientView()
+        collectionView?.backgroundColor = UIColor.whiteColor()
         
         guard let json = dashboardJson
             else { return }
@@ -55,11 +59,23 @@ class DashboardCollectionViewController: UICollectionViewController, UICollectio
     }
     
     override func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+        let items = sections[indexPath.section]["items"] as! [Dictionary]
+        let item = items[indexPath.row]
         
+        let title = item["title"] as! String!
+        guard let segue = DashboardSegue(rawValue: title.capitalizedString)
+            else { return }
+        
+        preformSegue(segue)
     }
     
     func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize {
         return layout.collectionView(collectionView, sizeForItemAtIndexPath: indexPath)
+    }
+    
+    func preformSegue(segue: DashboardSegue) {
+        let string = segue.rawValue
+        self.performSegueWithIdentifier(string, sender: self)
     }
 }
 

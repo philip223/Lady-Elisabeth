@@ -17,6 +17,7 @@
 		D42123461D0040CE00EB15A5 /* DashboardFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42123451D0040CE00EB15A5 /* DashboardFlowLayout.swift */; };
 		D421234A1D004D8C00EB15A5 /* Dashboard.json in Resources */ = {isa = PBXBuildFile; fileRef = D42123491D004D8C00EB15A5 /* Dashboard.json */; };
 		D421234C1D00504600EB15A5 /* NSJSONSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = D421234B1D00504600EB15A5 /* NSJSONSerialization.swift */; };
+		D421234E1D0083C300EB15A5 /* News.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D421234D1D0083C300EB15A5 /* News.storyboard */; };
 		D477F7251CFF265300CB0DFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D477F7241CFF265300CB0DFB /* AppDelegate.swift */; };
 		D477F72A1CFF265300CB0DFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D477F7281CFF265300CB0DFB /* Main.storyboard */; };
 		D477F72C1CFF265300CB0DFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D477F72B1CFF265300CB0DFB /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 		D42123451D0040CE00EB15A5 /* DashboardFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardFlowLayout.swift; sourceTree = "<group>"; };
 		D42123491D004D8C00EB15A5 /* Dashboard.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Dashboard.json; sourceTree = "<group>"; };
 		D421234B1D00504600EB15A5 /* NSJSONSerialization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSJSONSerialization.swift; sourceTree = "<group>"; };
+		D421234D1D0083C300EB15A5 /* News.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = News.storyboard; sourceTree = "<group>"; };
 		D477F7211CFF265200CB0DFB /* Lady Elisabeth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lady Elisabeth.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D477F7241CFF265300CB0DFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D477F7291CFF265300CB0DFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 				D42123321CFF372C00EB15A5 /* Dashboard.storyboard */,
 				D42123341CFF389800EB15A5 /* Menu.storyboard */,
 				D42123361CFF392100EB15A5 /* Notifications.storyboard */,
+				D421234D1D0083C300EB15A5 /* News.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -242,6 +245,7 @@
 				D42123351CFF389800EB15A5 /* Menu.storyboard in Resources */,
 				D477F72F1CFF265300CB0DFB /* LaunchScreen.storyboard in Resources */,
 				D477F72C1CFF265300CB0DFB /* Assets.xcassets in Resources */,
+				D421234E1D0083C300EB15A5 /* News.storyboard in Resources */,
 				D42123371CFF392100EB15A5 /* Notifications.storyboard in Resources */,
 				D421234A1D004D8C00EB15A5 /* Dashboard.json in Resources */,
 				D477F72A1CFF265300CB0DFB /* Main.storyboard in Resources */,
