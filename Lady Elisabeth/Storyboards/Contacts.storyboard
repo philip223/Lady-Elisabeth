@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Ijp-3y-bl3">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation View Controller-->
+        <scene sceneID="1mx-EH-uPV">
+            <objects>
+                <navigationController id="Ijp-3y-bl3" customClass="NavigationViewController" customModule="Lady_Elisabeth" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="MJ8-hC-kHD">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Cwf-QU-Pcu" kind="relationship" relationship="rootViewController" id="07X-CV-Upw"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WRQ-Wo-Nch" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-253" y="513"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="kp4-CO-ica">
+            <objects>
+                <viewController id="Cwf-QU-Pcu" customClass="ViewController" customModule="Lady_Elisabeth" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Kgi-g7-VUl"/>
+                        <viewControllerLayoutGuide type="bottom" id="iIg-pb-d7G"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="a6d-te-Fdp">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eEF-w4-XB2">
+                                <rect key="frame" x="242" y="466" width="116" height="36"/>
+                                <color key="backgroundColor" red="0.37195946730000001" green="0.51613757530000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="116" id="f6w-D0-SkK"/>
+                                    <constraint firstAttribute="height" constant="36" id="v7J-eX-KSR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="35"/>
+                                <state key="normal" title="Email">
+                                    <color key="titleColor" red="0.99035377820000003" green="0.98756333080000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="qUf-W4-sM7" kind="show" id="XEs-35-T0K"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GpC-ag-TzW">
+                                <rect key="frame" x="242" y="466" width="116" height="37"/>
+                                <color key="backgroundColor" red="0.45717527889999998" green="1" blue="0.4612797307" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="37" id="mOQ-1P-v1V"/>
+                                    <constraint firstAttribute="width" constant="116" id="rtY-oK-NFH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="35"/>
+                                <state key="normal" title="Email">
+                                    <color key="titleColor" red="0.99035377820000003" green="0.98756333080000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="qz4-6u-3rt" kind="show" id="VsZ-Pm-aQH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Is6-V2-5oR">
+                                <rect key="frame" x="242" y="467" width="116" height="36"/>
+                                <color key="backgroundColor" red="1" green="0.61909756130000004" blue="0.4135287346" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="UST-bt-zda"/>
+                                    <constraint firstAttribute="width" constant="116" id="yyB-tv-g36"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="35"/>
+                                <state key="normal" title="Email">
+                                    <color key="titleColor" red="0.99035377820000003" green="0.98756333080000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="sOS-yF-raj" kind="show" id="8k6-XC-H6j"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ljf-Yk-YbT">
+                                <rect key="frame" x="242" y="466" width="116" height="37"/>
+                                <color key="backgroundColor" red="0.37801810819999998" green="1" blue="0.91085992709999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="116" id="fNp-7e-HU3"/>
+                                    <constraint firstAttribute="height" constant="37" id="s3T-8V-aXI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="35"/>
+                                <state key="normal" title="Email">
+                                    <color key="titleColor" red="0.99035377820000003" green="0.98756333080000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="DL4-Rk-56L" kind="show" id="Kwd-VC-xZD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1l3-Vc-k0E">
+                                <rect key="frame" x="242" y="468" width="116" height="36"/>
+                                <color key="backgroundColor" red="0.78819007819999998" green="0.37508466550000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="116" id="CfA-QY-PQ2"/>
+                                    <constraint firstAttribute="height" constant="36" id="hsC-56-fFc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="35"/>
+                                <state key="normal" title="Email">
+                                    <color key="titleColor" red="0.99035377820000003" green="0.98756333080000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="xra-NP-MMh" kind="show" id="CDp-3L-Waq"/>
+                                </connections>
+                            </button>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aPb-V3-7iq">
+                                <rect key="frame" x="0.0" y="-162" width="320" height="162"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="Cwf-QU-Pcu" id="lRO-6E-pX6"/>
+                                    <outlet property="delegate" destination="Cwf-QU-Pcu" id="C0y-Qd-d3I"/>
+                                </connections>
+                            </pickerView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HA5-hc-wgm">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BtA-Dx-aLy">
+                                <rect key="frame" x="242" y="466" width="116" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.42126684809999998" blue="0.48431166689999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="116" id="D5k-oB-TNa"/>
+                                    <constraint firstAttribute="height" constant="40" id="diN-Hv-PEh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="35"/>
+                                <state key="normal" title="Email">
+                                    <color key="titleColor" red="0.99035377820000003" green="0.98756333080000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="YP7-e9-6RJ" kind="show" id="Qkc-D0-e50"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zSG-oh-fml">
+                                <rect key="frame" x="20" y="512" width="560" height="26"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="26" id="RWg-uo-d1L"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g8R-aB-pft">
+                                <rect key="frame" x="242" y="466" width="116" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.82678273040478967" blue="0.37214585523502763" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="4s8-AE-ufe"/>
+                                    <constraint firstAttribute="width" constant="116" id="i1y-v3-Key"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="35"/>
+                                <state key="normal" title="Email">
+                                    <color key="titleColor" red="0.99035377820000003" green="0.98756333080000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.54913883019999998" green="0.69864470489999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="zSG-oh-fml" firstAttribute="top" secondItem="eEF-w4-XB2" secondAttribute="bottom" constant="10" id="6hG-Zx-N57"/>
+                            <constraint firstItem="g8R-aB-pft" firstAttribute="firstBaseline" secondItem="1l3-Vc-k0E" secondAttribute="baseline" id="7AN-9T-cBA"/>
+                            <constraint firstItem="aPb-V3-7iq" firstAttribute="top" secondItem="Kgi-g7-VUl" secondAttribute="bottom" constant="95" id="8X1-KO-lxL"/>
+                            <constraint firstItem="Is6-V2-5oR" firstAttribute="centerX" secondItem="a6d-te-Fdp" secondAttribute="centerX" id="8me-cb-XCc"/>
+                            <constraint firstItem="zSG-oh-fml" firstAttribute="top" secondItem="1l3-Vc-k0E" secondAttribute="bottom" constant="8" id="9cm-HK-IIQ"/>
+                            <constraint firstItem="zSG-oh-fml" firstAttribute="top" secondItem="GpC-ag-TzW" secondAttribute="bottom" constant="9" id="HF7-zV-ajD"/>
+                            <constraint firstItem="g8R-aB-pft" firstAttribute="baseline" secondItem="1l3-Vc-k0E" secondAttribute="baseline" id="Jdb-Pn-syN"/>
+                            <constraint firstItem="g8R-aB-pft" firstAttribute="leading" secondItem="BtA-Dx-aLy" secondAttribute="leading" id="QDI-P7-C3d"/>
+                            <constraint firstItem="iIg-pb-d7G" firstAttribute="top" secondItem="zSG-oh-fml" secondAttribute="bottom" constant="62" id="RA4-cG-sL0"/>
+                            <constraint firstItem="1l3-Vc-k0E" firstAttribute="centerX" secondItem="a6d-te-Fdp" secondAttribute="centerX" id="YL6-kg-aM6"/>
+                            <constraint firstItem="aPb-V3-7iq" firstAttribute="leading" secondItem="a6d-te-Fdp" secondAttribute="leading" id="coI-Ff-iKT"/>
+                            <constraint firstItem="Ljf-Yk-YbT" firstAttribute="centerX" secondItem="a6d-te-Fdp" secondAttribute="centerX" id="di3-6W-CAM"/>
+                            <constraint firstItem="g8R-aB-pft" firstAttribute="baseline" secondItem="BtA-Dx-aLy" secondAttribute="baseline" id="fA8-hT-EG6"/>
+                            <constraint firstItem="HA5-hc-wgm" firstAttribute="centerX" secondItem="aPb-V3-7iq" secondAttribute="centerX" id="fJL-sh-MPP"/>
+                            <constraint firstItem="zSG-oh-fml" firstAttribute="top" secondItem="Ljf-Yk-YbT" secondAttribute="bottom" constant="9" id="hvW-zM-scI"/>
+                            <constraint firstItem="iIg-pb-d7G" firstAttribute="top" secondItem="HA5-hc-wgm" secondAttribute="bottom" constant="127" id="irV-iQ-q8r"/>
+                            <constraint firstItem="eEF-w4-XB2" firstAttribute="centerX" secondItem="a6d-te-Fdp" secondAttribute="centerX" id="jZu-UJ-1lr"/>
+                            <constraint firstItem="zSG-oh-fml" firstAttribute="top" secondItem="Is6-V2-5oR" secondAttribute="bottom" constant="9" id="kEx-gs-Bpy"/>
+                            <constraint firstAttribute="trailing" secondItem="aPb-V3-7iq" secondAttribute="trailing" id="kv8-Mk-1qM"/>
+                            <constraint firstItem="GpC-ag-TzW" firstAttribute="centerX" secondItem="a6d-te-Fdp" secondAttribute="centerX" id="rxx-ib-FDa"/>
+                            <constraint firstItem="zSG-oh-fml" firstAttribute="top" secondItem="BtA-Dx-aLy" secondAttribute="bottom" constant="6" id="tLr-m7-lhu"/>
+                            <constraint firstItem="zSG-oh-fml" firstAttribute="leading" secondItem="a6d-te-Fdp" secondAttribute="leadingMargin" id="uMS-sD-Wz0"/>
+                            <constraint firstItem="g8R-aB-pft" firstAttribute="baseline" secondItem="1l3-Vc-k0E" secondAttribute="firstBaseline" id="uhP-y3-LCa"/>
+                            <constraint firstItem="zSG-oh-fml" firstAttribute="trailing" secondItem="a6d-te-Fdp" secondAttribute="trailingMargin" id="yzB-o4-vTc"/>
+                            <constraint firstItem="HA5-hc-wgm" firstAttribute="leading" secondItem="a6d-te-Fdp" secondAttribute="leadingMargin" id="zWw-Xk-XK0"/>
+                            <constraint firstItem="BtA-Dx-aLy" firstAttribute="centerX" secondItem="a6d-te-Fdp" secondAttribute="centerX" id="zk7-bm-Pte"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="aPb-V3-7iq"/>
+                                <exclude reference="HA5-hc-wgm"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="fJL-sh-MPP"/>
+                                <exclude reference="zWw-Xk-XK0"/>
+                                <exclude reference="coI-Ff-iKT"/>
+                                <exclude reference="kv8-Mk-1qM"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="aPb-V3-7iq"/>
+                                <include reference="HA5-hc-wgm"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="fJL-sh-MPP"/>
+                                <include reference="zWw-Xk-XK0"/>
+                                <include reference="coI-Ff-iKT"/>
+                                <include reference="kv8-Mk-1qM"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" id="jQJ-Ok-iIB"/>
+                    <connections>
+                        <outlet property="button" destination="g8R-aB-pft" id="g6V-0T-B9G"/>
+                        <outlet property="button1" destination="BtA-Dx-aLy" id="yeQ-LW-4Qj"/>
+                        <outlet property="button2" destination="eEF-w4-XB2" id="UVi-wr-2bT"/>
+                        <outlet property="button3" destination="Is6-V2-5oR" id="hv8-gw-dg6"/>
+                        <outlet property="button4" destination="Ljf-Yk-YbT" id="Kw5-9f-gHL"/>
+                        <outlet property="button5" destination="GpC-ag-TzW" id="zFz-EX-0U0"/>
+                        <outlet property="button6" destination="1l3-Vc-k0E" id="8GU-S4-ywf"/>
+                        <outlet property="didSelect" destination="zSG-oh-fml" id="Vji-HM-gxF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e2B-nl-tKo" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="460" y="485"/>
+        </scene>
+        <!--Head-->
+        <scene sceneID="vCJ-s8-k9Z">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Head" id="wh4-sQ-bLJ" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0aa-Yg-6zG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="954" y="211"/>
+        </scene>
+        <!--SecertarySR-->
+        <scene sceneID="guu-Ud-IhW">
+            <objects>
+                <viewControllerPlaceholder storyboardName="SecertarySR" id="YP7-e9-6RJ" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="USg-A9-ZJa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="954.5" y="358"/>
+        </scene>
+        <!--SecetaryJr-->
+        <scene sceneID="cPI-Vp-Am5">
+            <objects>
+                <viewControllerPlaceholder storyboardName="SecetaryJr" id="qUf-W4-sM7" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vEN-zc-fyo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="954" y="323"/>
+        </scene>
+        <!--Admission-->
+        <scene sceneID="5bJ-Uu-ItW">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Admission" id="sOS-yF-raj" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="shd-2b-ak9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="954.5" y="285"/>
+        </scene>
+        <!--PersonalCare-->
+        <scene sceneID="kCO-WU-l9s">
+            <objects>
+                <viewControllerPlaceholder storyboardName="PersonalCare" id="DL4-Rk-56L" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QLo-QG-nV0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="954.5" y="394"/>
+        </scene>
+        <!--DirectorOfStudies-->
+        <scene sceneID="eDD-b0-gs1">
+            <objects>
+                <viewControllerPlaceholder storyboardName="DirectorOfStudies" id="qz4-6u-3rt" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TX1-Oq-xLE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="954" y="429"/>
+        </scene>
+        <!--SixthForm-->
+        <scene sceneID="Xpn-Gg-y1b">
+            <objects>
+                <viewControllerPlaceholder storyboardName="SixthForm" id="xra-NP-MMh" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QQv-kq-XSb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="954.5" y="247"/>
+        </scene>
+    </scenes>
+</document>

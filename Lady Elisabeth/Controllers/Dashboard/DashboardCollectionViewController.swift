@@ -16,6 +16,7 @@ class DashboardCollectionViewController: UICollectionViewController, UICollectio
         case Gallery
         case DateAndTerms
         case Login
+        
     }
     
     typealias Dictionary = [String : AnyObject]
@@ -27,7 +28,7 @@ class DashboardCollectionViewController: UICollectionViewController, UICollectio
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        title = "Dashboard"
+        title = "Menu"
         
         collectionView?.collectionViewLayout = layout
         collectionView?.backgroundColor = UIColor.whiteColor()

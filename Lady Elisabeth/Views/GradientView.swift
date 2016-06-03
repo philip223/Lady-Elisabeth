@@ -41,4 +41,6 @@ import UIKit
         gradientLayer.startPoint = CGPoint(x: 0.0, y: 0.0)
         gradientLayer.endPoint = CGPoint(x: 0.3, y: 0.0)
     }
+
 }
+

@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -16,7 +17,20 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="screen lau" translatesAutoresizingMaskIntoConstraints="NO" id="U05-cQ-pNL">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="U05-cQ-pNL" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="-20" id="alt-gA-0dZ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="U05-cQ-pNL" secondAttribute="trailing" constant="-20" id="bKo-vP-4Bh"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="U05-cQ-pNL" secondAttribute="bottom" id="dH3-Zd-Y3e"/>
+                            <constraint firstItem="U05-cQ-pNL" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="iK5-up-4Gh"/>
+                            <constraint firstItem="U05-cQ-pNL" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" id="kEP-4t-C1U"/>
+                            <constraint firstItem="U05-cQ-pNL" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="xsJ-9W-LXr"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -24,4 +38,7 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="screen lau" width="745" height="1053"/>
+    </resources>
 </document>

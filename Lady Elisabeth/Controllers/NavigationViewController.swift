@@ -13,6 +13,8 @@ class NavigationViewController: UINavigationController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        
+        
         topViewController?.addLeftBarButtonWithImage(UIImage(named: "hamburgerMenu")!)
         topViewController?.addRightBarButtonWithImage(UIImage(named: "notificationsMenu")!)
     }

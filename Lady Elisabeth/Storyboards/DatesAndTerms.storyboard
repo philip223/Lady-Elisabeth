@@ -9,27 +9,82 @@
         <scene sceneID="Amb-Dh-nlq">
             <objects>
                 <viewController id="rDK-UK-aii" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="KGV-OV-PVj"/>
-                        <viewControllerLayoutGuide type="bottom" id="6jV-HD-PTT"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="mVK-WG-0bn">
+                    <textView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" usesAttributedText="YES" id="gPA-kg-ELl">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dates and Terms" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UTg-BX-m3w">
-                                <rect key="frame" x="235" y="289" width="130" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="UTg-BX-m3w" firstAttribute="centerX" secondItem="mVK-WG-0bn" secondAttribute="centerX" id="ECk-LO-GWN"/>
-                            <constraint firstItem="UTg-BX-m3w" firstAttribute="centerY" secondItem="mVK-WG-0bn" secondAttribute="centerY" id="UJY-oL-rGe"/>
-                        </constraints>
-                    </view>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="0.60782044010000003" green="0.77407882760000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <attributedString key="attributedText">
+                            <fragment content="Autumn 2015  ">
+                                <attributes>
+                                    <color key="NSColor" red="0.9922498337765957" green="0.9922498337765957" blue="0.9922498337765957" alpha="1" colorSpace="calibratedRGB"/>
+                                    <font key="NSFont" size="30" name="HelveticaNeue-Light"/>
+                                    <font key="NSOriginalFont" size="30" name="HelveticaNeue-Light"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                </attributes>
+                            </fragment>
+                            <fragment>
+                                <string key="content">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            First day of term	Monday 7 September
+Fiesta Day (Día de la Comunidad Valenciana Friday 9 October
+Fiesta Day 
+y 18 December
+                                                                                                                                                        
+</string>
+                                <attributes>
+                                    <color key="NSColor" red="0.9922498337765957" green="0.9922498337765957" blue="0.9922498337765957" alpha="1" colorSpace="calibratedRGB"/>
+                                    <font key="NSFont" size="22" name="HelveticaNeue"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                </attributes>
+                            </fragment>
+                            <fragment content="Spring 2016">
+                                <attributes>
+                                    <color key="NSColor" red="0.9922498337765957" green="0.9922498337765957" blue="0.9922498337765957" alpha="1" colorSpace="calibratedRGB"/>
+                                    <font key="NSFont" size="30" name="HelveticaNeue-Light"/>
+                                    <font key="NSOriginalFont" size="30" name="HelveticaNeue-Light"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                </attributes>
+                            </fragment>
+                            <fragment>
+                                <string key="content">
+First day of term	Tuesday 5 April
+Puente Monday 2 May
+Last day of term	Wednesday 22 June
+                                                                                                                                                       
+</string>
+                                <attributes>
+                                    <color key="NSColor" red="0.9922498337765957" green="0.9922498337765957" blue="0.9922498337765957" alpha="1" colorSpace="calibratedRGB"/>
+                                    <font key="NSFont" size="22" name="HelveticaNeue"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                </attributes>
+                            </fragment>
+                            <fragment content="Summer ">
+                                <attributes>
+                                    <color key="NSColor" red="0.9922498337765957" green="0.9922498337765957" blue="0.9922498337765957" alpha="1" colorSpace="calibratedRGB"/>
+                                    <font key="NSFont" size="30" name="HelveticaNeue-Light"/>
+                                    <font key="NSOriginalFont" size="30" name="HelveticaNeue-Light"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                </attributes>
+                            </fragment>
+                            <fragment content="2016  ">
+                                <attributes>
+                                    <color key="NSColor" red="0.9862657912234043" green="0.9862657912234043" blue="0.9862657912234043" alpha="1" colorSpace="calibratedRGB"/>
+                                    <font key="NSFont" size="30" name="HelveticaNeue-Light"/>
+                                    <font key="NSOriginalFont" size="30" name="HelveticaNeue-Light"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                </attributes>
+                            </fragment>
+                            <fragment>
+                                <string key="content">                                                                                                                                                                                        First day of term	Thursday 7 January
+Half Term Week	Monday 15 February – Friday 19 February
+Last day of term	Wednesday 23 March                                 </string>
+                                <attributes>
+                                    <color key="NSColor" red="0.9862657912234043" green="0.9862657912234043" blue="0.9862657912234043" alpha="1" colorSpace="calibratedRGB"/>
+                                    <font key="NSFont" size="22" name="HelveticaNeue"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="idl-Yu-VzH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

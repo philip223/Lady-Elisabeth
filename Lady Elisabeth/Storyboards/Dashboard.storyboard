@@ -28,6 +28,7 @@
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="MF5-jG-LiH">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.33217669547872353" green="0.33217669547872353" blue="0.33217669547872353" alpha="1" colorSpace="calibratedRGB"/>
                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="zkj-rs-vqC">
                             <size key="itemSize" width="569" height="200"/>
                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -88,7 +89,7 @@
                         <segue destination="kUN-0P-xv6" kind="show" identifier="News" id="Bb6-NC-EiT"/>
                         <segue destination="GdF-3X-zRQ" kind="show" identifier="Gallery" id="yk3-7A-y10"/>
                         <segue destination="0rX-GK-quy" kind="show" identifier="DateAndTerms" id="ldp-7I-mGh"/>
-                        <segue destination="uiI-Do-2pG" kind="show" identifier="Login" id="7yE-f5-H6I"/>
+                        <segue destination="Zmn-hC-uXV" kind="show" identifier="Login" id="cpK-Dp-ZuD"/>
                     </connections>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3i3-jk-24E" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -120,10 +121,10 @@
             <point key="canvasLocation" x="1289.5" y="305"/>
         </scene>
         <!--Login-->
-        <scene sceneID="6zY-eX-cfK">
+        <scene sceneID="V9u-VL-CAq">
             <objects>
-                <viewControllerPlaceholder storyboardName="Login" id="uiI-Do-2pG" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="2O2-wE-wfK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewControllerPlaceholder storyboardName="Login" id="Zmn-hC-uXV" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X83-b4-75P" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1257.5" y="366"/>
         </scene>

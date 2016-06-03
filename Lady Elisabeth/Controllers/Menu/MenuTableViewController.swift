@@ -13,6 +13,8 @@ class MenuTableViewController: UITableViewController {
     enum MenuRow: Int {
         case home
         case transport
+        case contacts
+        case about
     }
     
     override func viewDidLoad() {
@@ -30,8 +32,27 @@ class MenuTableViewController: UITableViewController {
             case .home:
                 viewController = UIStoryboard(name: "Dashboard", bundle: nil).instantiateInitialViewController()
             case .transport:
-                viewController = UIStoryboard(name: "Login", bundle: nil).instantiateInitialViewController()
+                viewController = UIStoryboard(name: "Transport", bundle: nil).instantiateInitialViewController()
+        
+        
+        case .contacts:
+            viewController = UIStoryboard(name: "Contacts", bundle: nil).instantiateInitialViewController()
+
+            
+        case .about:
+            viewController = UIStoryboard(name: "About", bundle: nil).instantiateInitialViewController()
+            
+
+        
+        
+        
+        
         }
+        
+        
+        
+        
+        
         
         guard let controller = viewController
             else { return }

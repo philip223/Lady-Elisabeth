@@ -32,6 +32,8 @@ public class DashboardCollectionViewCell: UICollectionViewCell {
                 gradientView.colors = [UIColor.clearColor(), UIColor.greenColor()]
             } else {
                 gradientView.colors = [UIColor.blueColor(), UIColor.clearColor()]
+          
+            
             }
         }
     }
